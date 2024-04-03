@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def read_file(content) -> dict: 
     with open(content, 'r') as file:
         data = file.readlines()
